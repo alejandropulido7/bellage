@@ -1,0 +1,177 @@
+@import url("../main.css");
+
+.header .header-items {
+    justify-content: flex-end;
+}
+
+.banner{
+    background-image: url("img/banner.png");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    height: 380px;
+    width: 100%;
+}
+
+.banner-background{
+    position: relative;
+    height: 380px;
+    width: 100%;
+    background: rgb(22,80,192);
+    background: linear-gradient(90deg, rgba(22,80,192,1) 0%, rgba(255,255,255,0) 80%);
+}
+
+.banner-text-cont{
+    display: flex;
+    align-items: center;
+    height: 380px;
+}
+
+.banner-text{
+    width: 50%;
+    color: var(--grey-100, #FFF);
+    padding: 20px 0;
+    float: left;
+}
+
+.banner-text h1{
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 82px;
+    letter-spacing: -0.22px;
+}
+
+.banner-text p{
+    width: 90%;
+    font-size: 22px;
+    font-style: normal;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+}
+
+.banner-text p span{
+    font-weight: bold;
+}
+
+.welcome-guide-cont{
+    margin: 30px auto;
+}
+
+.welcome-guide-cont span{
+    color: var(--info-pressed);
+    font-weight: 700;
+    padding: 15px 0;
+    font-size: 22px;
+    font-style: normal;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+}
+
+.welcome-guide-cont h3{
+    color: var(--info-pressed);
+    padding-bottom: 30px;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.18px;
+}
+
+.welcome-guide-cont p{
+    padding: 10px 0;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+}
+
+.welcome-guide-cont .bellage-team{
+    color: var(--info-main);
+    font-weight: 600;
+}
+
+.cards-container{
+    margin: 30px auto;
+}
+
+.cards-container h3{
+    color: var(--info-pressed, #0C2A66);
+    margin: 20px 0;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.18px;
+}
+
+.cards-guide{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards-guide .card-cont{
+    color: var(--info-pressed, #0C2A66);
+    width: 30%;
+    margin: 10px;
+    height: 309px;
+    border-radius: 16px;
+    border: 1px solid var(--info-border, #8AA7DF);
+    background: var(--info-secondary, #F2F7FF);
+}
+
+.cards-guide .card-cont div{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.cards-guide .card-cont div p{
+    /* color: var(--info-pressed, #0C2A66); */
+    text-align: center;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: -0.16px;
+    margin-top: 15px;
+}
+
+.cards-guide .card-cont:hover{
+    color: #FFF !important;
+    cursor: pointer;
+    background: var(--info-pressed, #0C2A66);
+}
+
+.bottom-btn-cont{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.bottom-btn-cont button{
+    color: var(--footer-color);;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    width: 211px;
+    height: 44px;
+    padding: 8.281px;
+    border: none;
+    border-radius: 6.625px;
+    background-color: var(--organization-button-color);
+}
+
+.bottom-btn-cont a{
+    color: var(--info-pressed, #0C2A66);
+    font-size: 18px;
+}
+
+.bottom-btn-cont a:hover{
+    color: var(--info-main);
+    font-size: 18px;
+}
+

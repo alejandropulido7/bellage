@@ -1,0 +1,154 @@
+@import url("../main.css");
+
+.header .header-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcome{
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    margin-bottom: 80px;
+    width: 100%;
+}
+
+.welcome .welcome-text-cont{
+    display: flex;
+    width: 60%;
+}
+
+.welcome .welcome-img{
+    width: 40%;
+}
+
+.welcome .welcome-img img{
+    width: 100%;
+}
+
+.welcome .welcome-text{
+    display: block;
+    width: 50%;
+    align-self: center;
+    margin: auto;
+}
+
+.welcome .welcome-text h1{
+    color: var(--info-pressed, #0C2A66);
+    padding: 10px 0;
+    font-style: normal;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.18px;
+}
+
+.welcome .welcome-text p{
+    color: var(--grey-900, #232326);
+    padding: 10px 0;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+}
+
+.cards-section{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.cards-section .card-step{
+    width: 400px;
+    height: 260px;
+    padding: 20px;
+    margin-right: 10px;
+    border-radius: 24px;
+    border: 1px solid var(--info-border, #8AA7DF);
+    background: var(--grey-100, #FFF);
+}
+
+.cards-section .card-step .card-step-cont{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    height: 100%;
+    width: 70%;
+    padding-top: 20px;
+}
+.cards-section .card-step span{
+    position: absolute;
+    left: 35%;
+    top: -22%;
+    text-align: center;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    color: #FFF;
+    background-color: var(--info-pressed, #0C2A66);
+    flex-shrink: 0;
+}
+
+.cards-section .card-step img{
+    margin: 5px auto;
+    width: 100px;
+}
+
+.cards-section .card-step p{
+    color: var(--grey-900, #232326);
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.btn-container{
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    display: flex;
+    width: 400px;
+    height: 54px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 10px;
+    background: var(--primary-main, #00ACA6);
+    color: var(--grey-100, #FFF);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.559px;
+}
+
+.more-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--header-color);
+    width: 100%;
+    height: 85px;
+}
+
+.more-info p{
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+}
