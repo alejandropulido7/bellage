@@ -175,3 +175,9 @@
     font-size: 18px;
 }
 
+.bottom-btn-cont .btn-back:hover{
+    border: 1px solid var(--primary-main, #00ACA6);
+    color: var(--primary-main, #00ACA6);
+    cursor: pointer;
+}
+

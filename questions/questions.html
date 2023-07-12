@@ -9,33 +9,33 @@
 
 <body>
     <header class="header">
-        <div class="container">
-            <button>Your Organization</button>
+        <div class="container header-items">
+            <button class="header-btn">Your Organization</button>
             <img src="../img/Bellage-logo.png" alt="">
         </div>
     </header>
     <main>
-        <section>
+        <section class="container progress-bar-cont">
+            <p>Progress</p>
             <div class="progress-bar-questions">
-                <progress value="30" min="0" max="100" style="visibility:hidden;height:0;width:0;">30%</progress>
+                <div class="progress-bar">
+                    <span id="question-percent">15</span>
+                    <span>%</span>
+                </div>
+                
             </div>
         </section>
-        <section>
-            <div class="container">
-                <div>
-                    <p>In general, how would you rate your overall physical health?</p>
-                </div>
-                <div>
-                    <img src="img/main_img.png" alt="">
-                </div>
+        <section class="banner-question">
+            <div class="question-text">
+                <p>In general, how would you rate your overall physical health?</p>
+            </div>
+            <div class="question-img">
+                <img src="img/main_img.png" alt="">
             </div>
         </section>
         <section class="container">
-            <div>
-                <p>Poor</p>
-                <p>Excellent</p>
-            </div>
-            <ul>
+            <ul class="rate-list">
+                <li class="rate-trait">Poor</li>
                 <li>0</li>
                 <li>1</li>
                 <li>2</li>
@@ -47,24 +47,23 @@
                 <li>8</li>
                 <li>9</li>
                 <li>10</li>
+                <li class="rate-trait">Excellent</li>
             </ul>
         </section>
         <section>
-            <div class="container">
-                <button>Back</button>
-                <button>Next</button>
+            <div class="container bottom-btn-cont">
+                <a class="btn-back">Back</a>
+                <a class="btn-next">Next</a>
             </div>
         </section>
     </main>
-    <footer>
-        <div>
-            <div class="container">
-                <p>© 2023 BellAge, Inc.</p>
-                <p>Terms of Service   |   Privacy</p>
-                <p></p>
-            </div>
+    <footer class="footer">        
+        <div class="container footer-items">
+            <p>© 2023 BellAge, Inc.</p>
+            <p>Terms of Service   |   Privacy</p>
+            <p></p>
         </div>
-    </footer>
-    
+    </footer>  
+    <script src="questions.js"></script>  
 </body>
 </html>

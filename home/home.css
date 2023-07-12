@@ -1,9 +1,7 @@
 @import url("../main.css");
 
 .header .header-items{
-    display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .welcome{
@@ -134,6 +132,11 @@
     font-style: normal;
     font-weight: 400;
     line-height: 28.559px;
+}
+
+.btn-container .btn:hover{
+    background: #00817d;
+    cursor: pointer;
 }
 
 .more-info{

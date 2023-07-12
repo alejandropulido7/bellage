@@ -66,6 +66,7 @@
   display: flex;
   justify-content: space-between;
   margin: 40px 0;
+  align-items: center;
 }
 
 .summary-title-container .summary-title{
@@ -92,6 +93,7 @@
   text-align: center;
   margin-left: 10px;
   text-decoration: none;
+  height: auto;
 }
 
 .summary-title-container .summary-buttons a img{
@@ -246,7 +248,7 @@
 
 .priority_areas-list .priority_areas-item{
   width: 28%;
-  margin: 5px;
+  margin: 8px;
   padding: 20px;
   border-radius: 24px;
   border: 1px solid var(--info-border, #8AA7DF);
@@ -264,8 +266,8 @@
 }
 
 .priority_areas-list .priority_areas-item div img{
-  width: 55px;
-  height: 65px; 
+  width: 25%;
+  height: 45%;
   margin: auto;
 }
 

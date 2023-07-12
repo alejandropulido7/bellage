@@ -16,14 +16,17 @@
     --warning-main: #CFAE00;
     --orange: #D35900;
 }
-*, body{
+body{
     margin: 0;
     padding: 0;
+    height: auto;
+    width: 100%;
     
 }
 
 html{
     font-family: 'Public Sans', Arial, Helvetica, sans-serif;
+    height: auto;
 }
 
 hr{
@@ -79,7 +82,7 @@ hr{
 .footer p{
     color: #FFF;
     text-align: center;
-    padding: 25px 0;
+    padding: 10px 0;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
