@@ -79,7 +79,7 @@
 
 .rate-list li{
     gap: 5px;
-    padding: 20px;
+    padding: 25px;
     display: block;
     text-decoration: none;
     border-radius: 13.459px;
@@ -141,7 +141,31 @@
     cursor: pointer;
 }
 
-@media (max-width: 425px) {
+@media (min-width: 1024px) and (max-width: 1440px) { 
+
+    .banner-question .question-text p {
+        width: 80%;
+    }
+
+    .rate-list li {
+        padding: 26px;
+        font-size: 32px;
+    }
+
+    .rate-list{
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .rate-list li {
+        padding: 15px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 768px) {
     .rate-list {
         flex-direction: column-reverse;
         padding: 0;
@@ -158,10 +182,15 @@
     }
 
     .banner-question .question-text {
-        width: 150%;
+        font-size: 35px;
+        width: 100%;
         order: 2;
         padding-left: 40px;
         justify-content: inherit;
+    }
+
+    .banner-question .question-text p {
+        width: 100%;
     }
 
     .banner-question div {

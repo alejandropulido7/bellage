@@ -345,7 +345,18 @@
   font-size: 18px;
 }
 
-@media (max-width: 425px) {
+@media (min-width: 769px) and (max-width: 1440px) { 
+  .chart-list .chart-item{
+      height: auto;
+  }
+
+  .challenges-list div,
+  .priority_areas-list .priority_areas-item{
+    width: 43%;
+  }
+}
+
+@media (max-width: 768px) {
 
   .header .header-home {
     display: none;

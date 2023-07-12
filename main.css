@@ -89,11 +89,19 @@ hr{
     line-height: 24px;
 }
 
+@media (min-width: 769px) and (max-width: 1440px) { 
+    
+    .footer-items p:nth-child(2){
+        position: relative;
+        right: 90px;
+    }
+}
+
 @media (max-width: 425px) {
     .header-items img{
         width: 55%;
     }
-    
+
     .footer-items p:nth-child(3){
         display: none;
     }
