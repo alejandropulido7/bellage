@@ -88,3 +88,13 @@ hr{
     font-weight: 400;
     line-height: 24px;
 }
+
+@media (max-width: 425px) {
+    .header-items img{
+        width: 55%;
+    }
+    
+    .footer-items p:nth-child(3){
+        display: none;
+    }
+}

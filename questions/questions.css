@@ -140,3 +140,32 @@
     color: var(--primary-main, #00ACA6);
     cursor: pointer;
 }
+
+@media (max-width: 425px) {
+    .rate-list {
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+
+    .rate-list li {
+        margin-bottom: 10px;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    .banner-question {
+        flex-direction: column;
+    }
+
+    .banner-question .question-text {
+        width: 150%;
+        order: 2;
+        padding-left: 40px;
+        justify-content: inherit;
+    }
+
+    .banner-question div {
+        width: 100%;
+        order: 1;
+    }
+}

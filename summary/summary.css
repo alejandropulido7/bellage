@@ -126,7 +126,7 @@
 }
 
 .chart-list .chart-item div{
-  margin: auto;
+  margin: 5px auto;
 }
 
 .chart-list .chart-item img{
@@ -266,8 +266,6 @@
 }
 
 .priority_areas-list .priority_areas-item div img{
-  width: 25%;
-  height: 45%;
   margin: auto;
 }
 
@@ -345,4 +343,90 @@
 .bottom-btn-cont a:hover{
   color: var(--info-main);
   font-size: 18px;
+}
+
+@media (max-width: 425px) {
+
+  .header .header-home {
+    display: none;
+  }
+
+  .header .header-items {
+    width: 100% !important;
+  }
+
+  .summary-title-container .summary-title {
+    font-size: 30px;
+  }
+
+  .summary-title-container {
+    flex-direction: column;
+  }
+
+  .thriving div p{
+    align-self: center;
+  }
+
+  .chart-list .chart-item {
+    width: 50%;
+  }
+
+  .chart-list .chart-item img {
+    display: none;
+  }
+
+  .chart-list .chart-item {
+    width: 50%;
+    height: auto;
+  }
+
+  .chart-list .chart-item div{
+    margin: 0 auto;
+  }
+
+  .surviving-struggling{
+    flex-direction: column;
+  }
+
+  .list-surviving, .list-struggling {
+    justify-content: space-between;
+  }
+
+  .surviving-struggling div{
+    width: 100%;
+    margin: 0;
+  }
+
+  .surviving-item .progress-cont,
+  .struggling-item .progress-cont{
+    width: 65%;
+  }
+
+  .struggling-item {
+    width: 50% !important;
+  }
+
+  .priority_areas-list .priority_areas-item div {
+    height: auto;
+  }
+
+  .priority_areas-list .priority_areas-item {
+    width: 100%;
+  }
+
+  .priority_areas-list .priority_areas-item div p {
+    line-height: 25px;
+  }
+
+  .challenges-list div{
+    width: 100%;
+  }
+
+  .bottom-btn-cont a {
+    align-self: center;
+  }
+
+  .bottom-btn-cont button {
+      width: 40%;
+  }
 }

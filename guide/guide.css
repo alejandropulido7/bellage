@@ -181,3 +181,30 @@
     cursor: pointer;
 }
 
+@media (max-width: 425px) {
+
+    .banner {
+        background-position-x: right;
+    }
+
+    .banner-text {
+        width: 100%;
+    }
+
+    .banner-text h1 {
+        line-height: 50px;
+    }
+
+    .cards-guide .card-cont {
+        width: 100%;
+    }
+
+    .bottom-btn-cont a {
+        align-self: center;
+    }
+
+    .bottom-btn-cont button {
+        width: 40%;
+    }
+}
+

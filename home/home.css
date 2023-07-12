@@ -155,3 +155,55 @@
     line-height: 28px;
     letter-spacing: -0.5px;
 }
+
+
+/* SMARTPHONE VIEW */
+@media (max-width: 425px) {
+
+    .welcome {
+        position: relative;
+        flex-direction: column;
+    }
+
+    .welcome .welcome-text {
+        width: 100%;
+    }
+
+    .welcome .welcome-text-cont {
+        width: 100%;
+        order: 3;
+        z-index: 99;
+    }
+
+    .welcome .welcome-img {
+        position: relative;
+        width: 100%;
+        order: 1;
+        height: 150px;
+    }
+    
+    .welcome::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 220px;
+        order: 2;
+        background: linear-gradient(180deg, rgba(255,255,255,0) 40%, rgba(255,255,255,1) 100%);
+    }
+
+    .cards-section {
+        flex-direction: column;
+    }
+
+    .cards-section .card-step {
+        width: auto;
+        margin: 25px 0;
+    }
+
+    .more-info p {
+        font-size: 18px;
+        padding: 10px;
+        text-align: center;
+    }
+}
