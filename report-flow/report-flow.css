@@ -1,0 +1,339 @@
+@import url("../main.css");
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+html{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    height: auto;
+}
+
+.header-buttons {
+    background-color: #FFF;
+    margin: 20px auto;
+}
+
+.header-buttons  .buttons-font{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header-buttons > div > div {
+    display: flex;
+    gap: 5px;
+    justify-content: flex-end;
+}
+
+.header-buttons button{
+    background: #FFF;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.header-buttons button:hover{
+   cursor: pointer;
+   background: var(--info-secondary);
+}
+
+.banner{
+    background-image: url("img/banner.png");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.banner-background{
+    position: relative;
+    width: 100%;
+    background: rgb(22,80,192);
+    background: linear-gradient(90deg, rgba(22,80,192,1) 0%, rgba(255,255,255,0) 80%);
+}
+
+.banner-text-cont{
+    display: flex;
+    align-items: center;
+}
+
+.banner-text{
+    width: 50%;
+    color: var(--grey-100, #FFF);
+    padding: 20px 0;
+    float: left;
+}
+
+.banner-text h1{
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 82px;
+    letter-spacing: -0.22px;
+}
+
+.banner-text p{
+    width: 90%;
+    font-size: 22px;
+    font-style: normal;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+}
+
+.banner-text p span{
+    font-weight: bold;
+}
+
+
+.quotes {
+    background-color: var(--header-color);
+    border-radius: 10px;
+    padding: 8px;
+    margin: 20px auto;
+    font-weight: 400;
+}
+
+.quotes-text{
+    font-style: italic;
+    text-align: center;
+    height: auto;
+}
+
+.quotes-author{
+    text-align: center;
+    height: auto;
+}
+
+.items-list > div:nth-child(1) {
+    background: var(--info-secondary);
+    font-size: 16pt;
+    color: var(--info-pressed);
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+.items-list > div:nth-child(2) {
+    margin-top: 40px;
+}
+
+.items-list ol {
+    padding: 0;
+}
+
+.items-list ol.main-items > li{
+    list-style-type: none;
+}
+
+.items-list ol.main-items > li h4{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    color: var(--info-pressed);
+    font-size: 16pt;
+}
+
+/*--------- beginning First item ----------*/
+.items-list ol.main-items .item-one{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.items-list ol.main-items .item-one div{
+    width: 50%;
+}
+
+.items-list ol.main-items .item-one div p{
+    display: block;
+    width: 90%;
+}
+
+.items-list ol.main-items .item-one div video{
+    width: 100%;
+    border-radius: 10px;
+}
+/*----------- end First item -------------*/
+
+/*--------- beginning Second item ----------*/
+
+.items-list ol.main-items .item-two ul > li{
+    list-style-type: disc;
+    line-height: 22px;
+}
+
+.items-list ol.main-items .item-two h5{
+    font-size: 14pt;
+}
+
+.items-list ol.main-items .item-two h6{
+    font-size: 12pt;
+    color: var(--info-pressed);
+}
+
+.items-list ol.main-items .item-two a{
+    color: var(--info-main);
+    text-decoration: underline;
+}
+
+.items-list ol.main-items .item-two .cont-helpful-links{
+    display: flex;
+    gap: 10px;
+}
+
+.items-list ol.main-items .item-two .cont-helpful-links div{
+    display: flex;
+    background: var(--info-secondary);
+    width: 50%; 
+    border-radius: 15px;   
+    padding: 5px 5px 5px 10px;
+}
+
+.items-list ol.main-items .item-two .cont-helpful-links div div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;  
+}
+
+.items-list ol.main-items .item-two .cont-helpful-links div div:nth-child(2){
+    width: 40%;  
+}
+
+.items-list ol.main-items .item-two .cont-helpful-links div div img{
+    width: 100%; 
+    border-radius: 15px;   
+}
+
+/*----------- end Second item -------------*/
+
+
+/*--------- beginning third item ----------*/
+.items-list ol.main-items .item-three ul > li{
+    list-style-type: disc;
+}
+
+.items-list ol.main-items .item-three ul > li h5{
+    font-size: 14pt;
+}
+
+.items-list ol.main-items .item-three ul > li > div{
+    display: flex;
+    gap: 15px;
+}
+
+.items-list ol.main-items .item-three ul > li > div div{
+    width: 50%;
+}
+
+.items-list ol.main-items .item-three ul > li .item-three-quote{ 
+    background-color: var(--header-color);
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.items-list ol.main-items .item-three ul > li .item-three-quote span{ 
+    display: block;
+}
+
+.items-list ol.main-items .item-three ul > li .item-three-quote span:nth-child(1){ 
+    font-style: italic;
+    text-align: center;
+    height: auto;
+}
+/*----------- end third item -------------*/
+
+/* ---- back to top ------*/
+.back-to-top{
+    display: flex;
+    justify-content: flex-end;
+    padding: 25px 0;
+}
+
+.back-to-top a{
+    color: var(--info-pressed, #0C2A66);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.back-to-top a:hover{
+    color: var(--info-main);
+    font-size: 16px;
+}
+
+
+@media (min-width: 769px) and (max-width: 1440px) { 
+    .welcome .welcome-text h1{
+        font-size: 32px;
+    }
+
+    .welcome .welcome-text p{
+        font-size: 18px;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+
+/* SMARTPHONE VIEW */
+@media (max-width: 768px) {
+
+    .banner{
+        background-position-x: right;
+    }
+
+    .banner-text h1 {
+        font-size: 16pt;
+    }
+
+    .header-btn{
+        width: auto;
+        height: auto;
+    }
+
+    .header-items img{
+        width: 30%;
+    }
+
+    .items-list > div:nth-child(1){
+        font-size: 12pt;
+    }
+
+    .items-list ol.main-items > li h4, 
+    .items-list ol.main-items .item-three ul > li h5 {
+        font-size: 14pt;
+    }
+
+
+    .items-list ol.main-items .item-one{
+        flex-direction: column;
+    }
+
+    .items-list ol.main-items .item-one div{
+        width: 100%;
+    }
+
+    .items-list ol.main-items .item-two .cont-helpful-links {
+        flex-direction: column;
+    }
+
+    .items-list ol.main-items .item-two .cont-helpful-links div {
+        width: 100%;
+    }
+
+    .items-list ol.main-items .item-three ul > li > div{
+        flex-direction: column;
+    }
+
+    .items-list ol.main-items .item-three ul > li > div div {
+        width: 100%;
+    }
+
+    .items-list ol.main-items .item-three ul{
+        padding: 0 15px;
+    }
+
+}
